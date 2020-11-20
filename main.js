@@ -2,6 +2,7 @@ const format = require("prettier-eslint");
 
 const sourceCode = "const {foo} = bar";
  
+
 const options = {
   text: sourceCode,
   eslintConfig: {
